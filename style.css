@@ -1,0 +1,68 @@
+        /* css for universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* css for header  */
+
+.header{
+   
+    background-color: aqua;
+   width: 100%;
+   height: 70px;
+   display: flex;
+   position: fixed;
+ 
+   
+}    
+
+/* background-color: blueviolet; */
+.title{
+    width: 35%;
+    height: 70px;
+    margin-left: 50px ;
+    font-size: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    line-height: 70px;
+    
+   
+
+}
+
+.header-icons{
+    /* background-color: chartreuse; */
+    width: 50%;
+    height: 70px;
+    margin-left:23% ;
+    display: flex;
+    /* justify-content: center; */
+    margin-right: 30px;
+    
+    
+}
+
+.icons{
+    width: 25%;
+    height: 70px;
+    /* background-color: burlywood; */
+    /* font-size: 15px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+   text-align: center;
+   line-height: 70px;
+   cursor: pointer;
+   font-size: 100%;
+
+}
+
+.icons:hover{
+    background-color: rgba(1,1,1);
+    color: aqua;
+} 
+
+
+
